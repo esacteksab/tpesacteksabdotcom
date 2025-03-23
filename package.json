@@ -1,7 +1,4 @@
 {
-  "scripts": {
-    "postcss": "postcss ./assets/css/main.css --config ./postcss.config.js -r"
-  },
   "devDependencies": {
     "@tailwindcss/cli": "^4.0.0",
     "@tailwindcss/nesting": "^0.0.0-insiders.565cd3e",

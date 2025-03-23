@@ -1,11 +1,9 @@
 languageCode = 'en-us'
 baseURL = 'https://tp.esacteksab.com/'
 title = 'tp'
-theme = 'simpl'
 
 [[menus.main]]
 
-[markup]
 [markup.goldmark]
 [markup.goldmark.parser]
 [markup.goldmark.parser.attribute]
@@ -25,3 +23,25 @@ startLevel = 1
 [params.Author]
 github = 'esacteksab/tp'
 name = 'esacteksab'
+
+
+# required
+# [build]
+# [build.buildStats]
+# enable = true
+# [[build.cachebusters]]
+# source = 'assets/notwatching/hugo_stats.json'
+# target = 'css'
+# [[build.cachebusters]]
+# source = '(postcss|tailwind).config.js'
+# target = 'css'
+# [module]
+# [[module.mounts]]
+# source = 'assets'
+# target = 'assets'
+# [[module.mounts]]
+# disableWatch = true
+# source = 'hugo_stats.json'
+# target = 'assets/notwatching/hugo_stats.json'
+[[module.imports]]
+path = "github.com/esacteksab/simpl"
