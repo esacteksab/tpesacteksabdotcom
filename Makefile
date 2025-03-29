@@ -30,3 +30,7 @@ sync:
 .PHONY: tidy
 tidy:
 	hugo mod tidy
+
+.PHONY: update
+update:
+	hugo mod get -u
