@@ -1,0 +1,7 @@
+[files]
+extend-exclude = ["i18n/*.yaml", "assets/fontawesome/css/all.css"]
+
+[default.extend-words]
+Hashi = 'Hashi'
+optin = "optin"
+fa-adn = "fa-adn"

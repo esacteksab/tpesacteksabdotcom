@@ -66,9 +66,9 @@ repos:
 
   - repo: local
     hooks:
-      - id: make-lint
-        name: "Make Lint"
-        entry: "make lint"
+      - id: make-update
+        name: "Make Update"
+        entry: "make update"
         language: system
         pass_filenames: false
 
@@ -77,22 +77,6 @@ repos:
       - id: make-tidy
         name: "Make Tidy"
         entry: "make tidy"
-        language: system
-        pass_filenames: false
-
-  - repo: local
-    hooks:
-      - id: make-audit
-        name: "Make Audit"
-        entry: "make audit"
-        language: system
-        pass_filenames: false
-
-  - repo: local
-    hooks:
-      - id: make-test
-        name: "Make Test"
-        entry: "make test"
         language: system
         pass_filenames: false
 

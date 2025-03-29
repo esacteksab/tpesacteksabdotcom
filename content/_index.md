@@ -15,11 +15,11 @@ I wanted to make as few assumptions about your environment as possible, so `tp` 
 
 An annotated copy exists in the [example](./example) directory. **_The config file, the parameters and possibly the presence of default values is actively being worked on. This behavior may change in a future release._**
 
-| Parameter | Type   | Flag             | Required | Description                                                                                                                                                          |
-|-----------|--------|------------------|----------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| binary    | string | `-b`,`--binary`  | N [^3]   | We look on your `$PATH` for `tofu` or `terraform`, if both exist, you _must_ define _one_ in your config or pass the flag `-b` or `--binary`. _Default: `undefined`_ |
+| Parameter | Type   | Flag              | Required | Description                                                                                                                                                          |
+| --------- | ------ | ----------------- | -------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| binary    | string | `-b`,`--binary`   | N [^3]   | We look on your `$PATH` for `tofu` or `terraform`, if both exist, you _must_ define _one_ in your config or pass the flag `-b` or `--binary`. _Default: `undefined`_ |
 | planFile  | string | `-o`, `--outFile` | Y        | The name of the plan's output file created by `gh tp`. _Default: `""`_                                                                                               |
-| mdFile    | string | `-m`, `--mdFile` | Y        | The name of the Markdown file created by `gh tp`. _Default: `""`_                                                                                                    |
+| mdFile    | string | `-m`, `--mdFile`  | Y        | The name of the Markdown file created by `gh tp`. _Default: `""`_                                                                                                    |
 | verbose   | bool   | `-v`, `--verbose` | N        | Enable verbose logging. _Default: `false`_                                                                                                                           |
 
 #### `gh tp init`
