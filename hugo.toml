@@ -1,12 +1,14 @@
 languageCode = 'en-us'
 baseURL      = 'https://tp.esacteksab.com/'
 title        = 'tp'
+enableGitInfo = true
 
 [[menus.main]]
 
 
 [Params]
   accentColor = 'blue'
+  gitURL = 'https://github.com/esacteksab/tpesacteksabdotcom'
 
 [Params.Author]
   github = 'esacteksab/gh-tp'
