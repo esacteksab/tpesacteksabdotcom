@@ -2,10 +2,11 @@ version: 2
 updates:
   - package-ecosystem: "pip"
     directory: "/"
-    minor-and-patch:
-      update-types:
-        - "minor"
-        - "patch"
+    groups:
+      python-minor-and-patch:
+        update-types:
+          - "minor"
+          - "patch"
     schedule:
       interval: "weekly"
       day: "saturday"
@@ -14,10 +15,11 @@ updates:
 
   - package-ecosystem: "gomod"
     directory: "/"
-    minor-and-patch:
-      update-types:
-        - "minor"
-        - "patch"
+    groups:
+      go-minor-and-patch:
+        update-types:
+          - "minor"
+          - "patch"
     schedule:
       interval: "weekly"
       day: "saturday"
@@ -27,7 +29,7 @@ updates:
   - package-ecosystem: "npm"
     directory: "/"
     groups:
-      minor-and-patch:
+      npm-minor-and-patch:
         update-types:
           - "minor"
           - "patch"
