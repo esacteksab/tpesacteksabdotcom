@@ -7,7 +7,6 @@ _site/
 
 # Additional Ruby/bundler ignore for when you run: bundle install
 /vendor
-.tool-versions
 
 #############
 # Go Things #
