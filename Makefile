@@ -34,3 +34,7 @@ tidy:
 .PHONY: update
 update:
 	hugo mod get -u
+
+.PHONY: update-hugo
+update-hugo:
+	CGO_ENABLED=1 go install -tags extended github.com/gohugoio/hugo@latest
