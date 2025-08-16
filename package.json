@@ -1,8 +1,8 @@
 {
   "devDependencies": {
-    "@tailwindcss/cli": "^4.1.11",
+    "@tailwindcss/cli": "^4.1.12",
     "@tailwindcss/nesting": "0.0.0-insiders.565cd3e",
-    "@tailwindcss/postcss": "^4.1.11",
+    "@tailwindcss/postcss": "^4.1.12",
     "@tailwindcss/typography": "^0.5.16",
     "autoprefixer": "^10.4.21",
     "install": "^0.13.0",
@@ -21,7 +21,7 @@
     "prettier-plugin-toml": "^2.0.6",
     "stylelint": "^16.23.1",
     "stylelint-config-standard": "^38.0.0",
-    "tailwindcss": "^4.1.11"
+    "tailwindcss": "^4.1.12"
   },
   "postcss": {
     "map": false,
