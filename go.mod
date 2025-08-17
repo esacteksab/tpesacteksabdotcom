@@ -1,5 +1,5 @@
 module github.com/esacteksab/tpesacteksabdotcom
 
-go 1.24.4
+go 1.25.0
 
-require github.com/esacteksab/simpl v0.8.0 // indirect
+require github.com/esacteksab/simpl v0.8.1 // indirect
