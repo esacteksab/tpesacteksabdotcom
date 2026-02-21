@@ -9,3 +9,4 @@
 
 [tools]
 pnpm = "latest"
+hugo-extended = "v0.156.0"
