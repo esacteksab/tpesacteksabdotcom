@@ -1,12 +1,12 @@
 {
   "devDependencies": {
-    "@tailwindcss/cli": "^4.2.2",
+    "@tailwindcss/cli": "^4.2.4",
     "@tailwindcss/nesting": "0.0.0-insiders.565cd3e",
-    "@tailwindcss/postcss": "^4.2.2",
+    "@tailwindcss/postcss": "^4.2.4",
     "@tailwindcss/typography": "^0.5.19",
     "autoprefixer": "^10.5.0",
     "install": "^0.13.0",
-    "npm": "^11.12.1",
+    "npm": "^11.13.0",
     "postcss": "^8.5.10",
     "postcss-cli": "^11.0.1",
     "postcss-color-converter": "^1.2.1",
@@ -17,11 +17,11 @@
     "prettier-plugin-organize-attributes": "^1.0.0",
     "prettier-plugin-pkg": "^0.22.1",
     "prettier-plugin-sh": "^0.18.1",
-    "prettier-plugin-tailwindcss": "^0.7.2",
+    "prettier-plugin-tailwindcss": "^0.7.3",
     "prettier-plugin-toml": "^2.0.6",
-    "stylelint": "^17.8.0",
+    "stylelint": "^17.9.0",
     "stylelint-config-standard": "^40.0.0",
-    "tailwindcss": "^4.2.2"
+    "tailwindcss": "^4.2.4"
   },
   "postcss": {
     "map": false,
