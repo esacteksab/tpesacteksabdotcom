@@ -13,7 +13,7 @@ importers:
         version: 4.2.4
       '@tailwindcss/nesting':
         specifier: 0.0.0-insiders.565cd3e
-        version: 0.0.0-insiders.565cd3e(postcss@8.5.10)
+        version: 0.0.0-insiders.565cd3e(postcss@8.5.13)
       '@tailwindcss/postcss':
         specifier: ^4.2.4
         version: 4.2.4
@@ -22,7 +22,7 @@ importers:
         version: 0.5.19(tailwindcss@4.2.4)
       autoprefixer:
         specifier: ^10.5.0
-        version: 10.5.0(postcss@8.5.10)
+        version: 10.5.0(postcss@8.5.13)
       install:
         specifier: ^0.13.0
         version: 0.13.0
@@ -30,23 +30,23 @@ importers:
         specifier: ^11.13.0
         version: 11.13.0
       postcss:
-        specifier: ^8.5.10
-        version: 8.5.10
+        specifier: ^8.5.13
+        version: 8.5.13
       postcss-cli:
         specifier: ^11.0.1
-        version: 11.0.1(jiti@2.6.1)(postcss@8.5.10)
+        version: 11.0.1(jiti@2.6.1)(postcss@8.5.13)
       postcss-color-converter:
         specifier: ^1.2.1
-        version: 1.2.1(postcss@8.5.10)
+        version: 1.2.1(postcss@8.5.13)
       postcss-flexbugs-fixes:
         specifier: ^5.0.2
-        version: 5.0.2(postcss@8.5.10)
+        version: 5.0.2(postcss@8.5.13)
       prettier:
         specifier: ^3.8.3
         version: 3.8.3
       prettier-plugin-css-order:
         specifier: ^2.2.0
-        version: 2.2.0(postcss@8.5.10)(prettier@3.8.3)
+        version: 2.2.0(postcss@8.5.13)(prettier@3.8.3)
       prettier-plugin-go-template:
         specifier: ^0.0.15
         version: 0.0.15(prettier@3.8.3)
@@ -60,17 +60,17 @@ importers:
         specifier: ^0.18.1
         version: 0.18.1(prettier@3.8.3)
       prettier-plugin-tailwindcss:
-        specifier: ^0.7.3
-        version: 0.7.3(prettier-plugin-css-order@2.2.0(postcss@8.5.10)(prettier@3.8.3))(prettier-plugin-organize-attributes@1.0.0(prettier@3.8.3))(prettier@3.8.3)
+        specifier: ^0.8.0
+        version: 0.8.0(prettier-plugin-css-order@2.2.0(postcss@8.5.13)(prettier@3.8.3))(prettier-plugin-organize-attributes@1.0.0(prettier@3.8.3))(prettier@3.8.3)
       prettier-plugin-toml:
         specifier: ^2.0.6
         version: 2.0.6(prettier@3.8.3)
       stylelint:
-        specifier: ^17.9.0
-        version: 17.9.0
+        specifier: ^17.9.1
+        version: 17.9.1
       stylelint-config-standard:
         specifier: ^40.0.0
-        version: 40.0.0(stylelint@17.9.0)
+        version: 40.0.0(stylelint@17.9.1)
       tailwindcss:
         specifier: ^4.2.4
         version: 4.2.4
@@ -624,8 +624,8 @@ packages:
   hookified@1.15.1:
     resolution: {integrity: sha512-MvG/clsADq1GPM2KGo2nyfaWVyn9naPiXrqIe4jYjXNZQt238kWyOGrsyc/DmRAQ+Re6yeo6yX/yoNCG5KAEVg==}
 
-  hookified@2.1.1:
-    resolution: {integrity: sha512-AHb76R16GB5EsPBE2J7Ko5kiEyXwviB9P5SMrAKcuAu4vJPZttViAbj9+tZeaQE5zjDme+1vcHP78Yj/WoAveA==}
+  hookified@2.2.0:
+    resolution: {integrity: sha512-p/LgFzRN5FeoD3DLS6bkUapeye6E4SI6yJs6KetENd18S+FBthqYq2amJUWpt5z0EQwwHemidjY5OqJGEKm5uA==}
 
   html-tags@5.1.0:
     resolution: {integrity: sha512-n6l5uca7/y5joxZ3LUePhzmBFUJ+U2YWzhMa8XUTecSeSlQiZdF5XAd/Q3/WUl0VsXgUwWi8I7CNIwdI5WN1SQ==}
@@ -826,8 +826,8 @@ packages:
   ms@2.1.3:
     resolution: {integrity: sha512-6FlzubTLZG3J2a/NVCAleEhjzq5oxgHyaCU9yYXvcLsvoVaHJq/s5xXI6/XXP6tz7R9xAOtHnSO/tXtF3WRTlA==}
 
-  nanoid@3.3.11:
-    resolution: {integrity: sha512-N8SpfPUnUp1bK+PMYW8qSWdl9U+wwNWI4QKxOYDy9JAro3WMX7p2OeVRF9v+347pnakNevPmiHhNmZ2HbFA76w==}
+  nanoid@3.3.12:
+    resolution: {integrity: sha512-ZB9RH/39qpq5Vu6Y+NmUaFhQR6pp+M2Xt76XBnEwDaGcVAqhlvxrl3B2bKS5D3NH3QR76v3aSrKaF/Kiy7lEtQ==}
     engines: {node: ^10 || ^12 || ^13.7 || ^14 || >=15.0.1}
     hasBin: true
 
@@ -1019,8 +1019,8 @@ packages:
     peerDependencies:
       postcss: ^8.2.9
 
-  postcss@8.5.10:
-    resolution: {integrity: sha512-pMMHxBOZKFU6HgAZ4eyGnwXF/EvPGGqUr0MnZ5+99485wwW41kW91A4LOGxSHhgugZmSChL5AlElNdwlNgcnLQ==}
+  postcss@8.5.13:
+    resolution: {integrity: sha512-qif0+jGGZoLWdHey3UFHHWP0H7Gbmsk8T5VEqyYFbWqPr1XqvLGBbk/sl8V5exGmcYJklJOhOQq1pV9IcsiFag==}
     engines: {node: ^10 || ^12 || >=14}
 
   prettier-plugin-css-order@2.2.0:
@@ -1053,8 +1053,8 @@ packages:
     peerDependencies:
       prettier: ^3.6.0
 
-  prettier-plugin-tailwindcss@0.7.3:
-    resolution: {integrity: sha512-lckXaWWdo2ZVXoMoUO3WIBiz9hVY+YBEh1gYyMFfrWP9WZW/wpFXQKizHx7WrFQFMkcG0bGShdpp531X1n+qpg==}
+  prettier-plugin-tailwindcss@0.8.0:
+    resolution: {integrity: sha512-V8ITGH87yuBDF6JpEZTOVlUz/saAwqb8f3HRgUj8Lh+tGCcrmorhsLpYqzygwFwK0PE2Ib6Mv3M7T/uE2tZV1g==}
     engines: {node: '>=20.19'}
     peerDependencies:
       '@ianvs/prettier-plugin-sort-imports': '*'
@@ -1183,8 +1183,8 @@ packages:
     resolution: {integrity: sha512-wKyQRQpjJ0sIp62ErSZdGsjMJWsap5oRNihHhu6G7JVO/9jIB6UyevL+tXuOqrng8j/cxKTWyWUwvSTriiZz/g==}
     engines: {node: '>=8'}
 
-  string-width@8.2.0:
-    resolution: {integrity: sha512-6hJPQ8N0V0P3SNmP6h2J99RLuzrWz2gvT7VnK5tKvrNqJoyS9W4/Fb8mo31UiPvy00z7DQXkP2hnKBVav76thw==}
+  string-width@8.2.1:
+    resolution: {integrity: sha512-IIaP0g3iy9Cyy18w3M9YcaDudujEAVHKt3a3QJg1+sr/oX96TbaGUubG0hJyCjCBThFH+tFpcIyoUHUn1ogaLA==}
     engines: {node: '>=20'}
 
   strip-ansi@6.0.1:
@@ -1207,8 +1207,8 @@ packages:
     peerDependencies:
       stylelint: ^17.0.0
 
-  stylelint@17.9.0:
-    resolution: {integrity: sha512-xO0jeY6z1/urFL5L/BZLmB1yYlbRiRMQnYH6ArZIDWJ+SZXGssOY7XoYb1JIv/L220+EBnwwJXJS4Mt/F96SvA==}
+  stylelint@17.9.1:
+    resolution: {integrity: sha512-THTmnAPJTrg/JhkTWZlSyrO+HUYMx6ELthIHeMyD2WOKqXIJUFQv2Yxn91bvUrZdbBJaW2dUuQdPST2wcQ6C3g==}
     engines: {node: '>=20.19.0'}
     hasBin: true
 
@@ -1463,10 +1463,10 @@ snapshots:
       picocolors: 1.1.1
       tailwindcss: 4.2.4
 
-  '@tailwindcss/nesting@0.0.0-insiders.565cd3e(postcss@8.5.10)':
+  '@tailwindcss/nesting@0.0.0-insiders.565cd3e(postcss@8.5.13)':
     dependencies:
-      postcss: 8.5.10
-      postcss-nested: 5.0.6(postcss@8.5.10)
+      postcss: 8.5.13
+      postcss-nested: 5.0.6(postcss@8.5.13)
 
   '@tailwindcss/node@4.2.4':
     dependencies:
@@ -1534,7 +1534,7 @@ snapshots:
       '@alloc/quick-lru': 5.2.0
       '@tailwindcss/node': 4.2.4
       '@tailwindcss/oxide': 4.2.4
-      postcss: 8.5.10
+      postcss: 8.5.13
       tailwindcss: 4.2.4
 
   '@tailwindcss/typography@0.5.19(tailwindcss@4.2.4)':
@@ -1572,13 +1572,13 @@ snapshots:
 
   astral-regex@2.0.0: {}
 
-  autoprefixer@10.5.0(postcss@8.5.10):
+  autoprefixer@10.5.0(postcss@8.5.13):
     dependencies:
       browserslist: 4.28.2
       caniuse-lite: 1.0.30001788
       fraction.js: 5.3.4
       picocolors: 1.1.1
-      postcss: 8.5.10
+      postcss: 8.5.13
       postcss-value-parser: 4.2.0
 
   baseline-browser-mapping@2.10.19: {}
@@ -1644,9 +1644,9 @@ snapshots:
       js-yaml: 4.1.1
       parse-json: 5.2.0
 
-  css-declaration-sorter@7.3.1(postcss@8.5.10):
+  css-declaration-sorter@7.3.1(postcss@8.5.13):
     dependencies:
-      postcss: 8.5.10
+      postcss: 8.5.13
 
   css-functions-list@3.3.3: {}
 
@@ -1770,7 +1770,7 @@ snapshots:
 
   hookified@1.15.1: {}
 
-  hookified@2.1.1: {}
+  hookified@2.2.0: {}
 
   html-tags@5.1.0: {}
 
@@ -1911,7 +1911,7 @@ snapshots:
 
   ms@2.1.3: {}
 
-  nanoid@3.3.11: {}
+  nanoid@3.3.12: {}
 
   node-addon-api@7.1.1: {}
 
@@ -1940,15 +1940,15 @@ snapshots:
 
   pify@2.3.0: {}
 
-  postcss-cli@11.0.1(jiti@2.6.1)(postcss@8.5.10):
+  postcss-cli@11.0.1(jiti@2.6.1)(postcss@8.5.13):
     dependencies:
       chokidar: 3.6.0
       dependency-graph: 1.0.0
       fs-extra: 11.3.4
       picocolors: 1.1.1
-      postcss: 8.5.10
-      postcss-load-config: 5.1.0(jiti@2.6.1)(postcss@8.5.10)
-      postcss-reporter: 7.1.0(postcss@8.5.10)
+      postcss: 8.5.13
+      postcss-load-config: 5.1.0(jiti@2.6.1)(postcss@8.5.13)
+      postcss-reporter: 7.1.0(postcss@8.5.13)
       pretty-hrtime: 1.0.3
       read-cache: 1.0.0
       slash: 5.1.0
@@ -1958,46 +1958,46 @@ snapshots:
       - jiti
       - tsx
 
-  postcss-color-converter@1.2.1(postcss@8.5.10):
+  postcss-color-converter@1.2.1(postcss@8.5.13):
     dependencies:
       colorizr: 3.0.9
-      postcss: 8.5.10
-      postcss-values-parser: 6.0.2(postcss@8.5.10)
+      postcss: 8.5.13
+      postcss-values-parser: 6.0.2(postcss@8.5.13)
 
-  postcss-flexbugs-fixes@5.0.2(postcss@8.5.10):
+  postcss-flexbugs-fixes@5.0.2(postcss@8.5.13):
     dependencies:
-      postcss: 8.5.10
+      postcss: 8.5.13
 
-  postcss-less@6.0.0(postcss@8.5.10):
+  postcss-less@6.0.0(postcss@8.5.13):
     dependencies:
-      postcss: 8.5.10
+      postcss: 8.5.13
 
-  postcss-load-config@5.1.0(jiti@2.6.1)(postcss@8.5.10):
+  postcss-load-config@5.1.0(jiti@2.6.1)(postcss@8.5.13):
     dependencies:
       lilconfig: 3.1.3
       yaml: 2.8.3
     optionalDependencies:
       jiti: 2.6.1
-      postcss: 8.5.10
+      postcss: 8.5.13
 
-  postcss-nested@5.0.6(postcss@8.5.10):
+  postcss-nested@5.0.6(postcss@8.5.13):
     dependencies:
-      postcss: 8.5.10
+      postcss: 8.5.13
       postcss-selector-parser: 6.1.2
 
-  postcss-reporter@7.1.0(postcss@8.5.10):
+  postcss-reporter@7.1.0(postcss@8.5.13):
     dependencies:
       picocolors: 1.1.1
-      postcss: 8.5.10
+      postcss: 8.5.13
       thenby: 1.3.4
 
-  postcss-safe-parser@7.0.1(postcss@8.5.10):
+  postcss-safe-parser@7.0.1(postcss@8.5.13):
     dependencies:
-      postcss: 8.5.10
+      postcss: 8.5.13
 
-  postcss-scss@4.0.9(postcss@8.5.10):
+  postcss-scss@4.0.9(postcss@8.5.13):
     dependencies:
-      postcss: 8.5.10
+      postcss: 8.5.13
 
   postcss-selector-parser@6.0.10:
     dependencies:
@@ -2016,24 +2016,24 @@ snapshots:
 
   postcss-value-parser@4.2.0: {}
 
-  postcss-values-parser@6.0.2(postcss@8.5.10):
+  postcss-values-parser@6.0.2(postcss@8.5.13):
     dependencies:
       color-name: 1.1.4
       is-url-superb: 4.0.0
-      postcss: 8.5.10
+      postcss: 8.5.13
       quote-unquote: 1.0.0
 
-  postcss@8.5.10:
+  postcss@8.5.13:
     dependencies:
-      nanoid: 3.3.11
+      nanoid: 3.3.12
       picocolors: 1.1.1
       source-map-js: 1.2.1
 
-  prettier-plugin-css-order@2.2.0(postcss@8.5.10)(prettier@3.8.3):
+  prettier-plugin-css-order@2.2.0(postcss@8.5.13)(prettier@3.8.3):
     dependencies:
-      css-declaration-sorter: 7.3.1(postcss@8.5.10)
-      postcss-less: 6.0.0(postcss@8.5.10)
-      postcss-scss: 4.0.9(postcss@8.5.10)
+      css-declaration-sorter: 7.3.1(postcss@8.5.13)
+      postcss-less: 6.0.0(postcss@8.5.13)
+      postcss-scss: 4.0.9(postcss@8.5.13)
       prettier: 3.8.3
     transitivePeerDependencies:
       - postcss
@@ -2057,11 +2057,11 @@ snapshots:
       prettier: 3.8.3
       sh-syntax: 0.5.8
 
-  prettier-plugin-tailwindcss@0.7.3(prettier-plugin-css-order@2.2.0(postcss@8.5.10)(prettier@3.8.3))(prettier-plugin-organize-attributes@1.0.0(prettier@3.8.3))(prettier@3.8.3):
+  prettier-plugin-tailwindcss@0.8.0(prettier-plugin-css-order@2.2.0(postcss@8.5.13)(prettier@3.8.3))(prettier-plugin-organize-attributes@1.0.0(prettier@3.8.3))(prettier@3.8.3):
     dependencies:
       prettier: 3.8.3
     optionalDependencies:
-      prettier-plugin-css-order: 2.2.0(postcss@8.5.10)(prettier@3.8.3)
+      prettier-plugin-css-order: 2.2.0(postcss@8.5.13)(prettier@3.8.3)
       prettier-plugin-organize-attributes: 1.0.0(prettier@3.8.3)
 
   prettier-plugin-toml@2.0.6(prettier@3.8.3):
@@ -2075,7 +2075,7 @@ snapshots:
 
   qified@0.9.1:
     dependencies:
-      hookified: 2.1.1
+      hookified: 2.2.0
 
   queue-microtask@1.2.3: {}
 
@@ -2123,7 +2123,7 @@ snapshots:
       is-fullwidth-code-point: 3.0.0
       strip-ansi: 6.0.1
 
-  string-width@8.2.0:
+  string-width@8.2.1:
     dependencies:
       get-east-asian-width: 1.5.0
       strip-ansi: 7.2.0
@@ -2136,16 +2136,16 @@ snapshots:
     dependencies:
       ansi-regex: 6.2.2
 
-  stylelint-config-recommended@18.0.0(stylelint@17.9.0):
+  stylelint-config-recommended@18.0.0(stylelint@17.9.1):
     dependencies:
-      stylelint: 17.9.0
+      stylelint: 17.9.1
 
-  stylelint-config-standard@40.0.0(stylelint@17.9.0):
+  stylelint-config-standard@40.0.0(stylelint@17.9.1):
     dependencies:
-      stylelint: 17.9.0
-      stylelint-config-recommended: 18.0.0(stylelint@17.9.0)
+      stylelint: 17.9.1
+      stylelint-config-recommended: 18.0.0(stylelint@17.9.1)
 
-  stylelint@17.9.0:
+  stylelint@17.9.1:
     dependencies:
       '@csstools/css-calc': 3.2.0(@csstools/css-parser-algorithms@4.0.0(@csstools/css-tokenizer@4.0.0))(@csstools/css-tokenizer@4.0.0)
       '@csstools/css-parser-algorithms': 4.0.0(@csstools/css-tokenizer@4.0.0)
@@ -2174,11 +2174,11 @@ snapshots:
       micromatch: 4.0.8
       normalize-path: 3.0.0
       picocolors: 1.1.1
-      postcss: 8.5.10
-      postcss-safe-parser: 7.0.1(postcss@8.5.10)
+      postcss: 8.5.13
+      postcss-safe-parser: 7.0.1(postcss@8.5.13)
       postcss-selector-parser: 7.1.1
       postcss-value-parser: 4.2.0
-      string-width: 8.2.0
+      string-width: 8.2.1
       supports-hyperlinks: 4.4.0
       svg-tags: 1.0.0
       table: 6.9.0
