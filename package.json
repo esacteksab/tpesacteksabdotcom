@@ -19,7 +19,7 @@
     "prettier-plugin-sh": "^0.18.1",
     "prettier-plugin-tailwindcss": "^0.8.0",
     "prettier-plugin-toml": "^2.0.6",
-    "stylelint": "^17.11.0",
+    "stylelint": "^17.11.1",
     "stylelint-config-standard": "^40.0.0",
     "tailwindcss": "^4.3.0"
   },
