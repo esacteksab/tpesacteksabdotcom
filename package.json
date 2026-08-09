@@ -5,8 +5,6 @@
     "@tailwindcss/postcss": "^4.3.3",
     "@tailwindcss/typography": "^0.5.20",
     "autoprefixer": "^10.5.4",
-    "install": "^0.13.0",
-    "npm": "^12.0.2",
     "postcss": "^8.5.25",
     "postcss-cli": "^11.0.1",
     "postcss-color-converter": "^1.2.1",
@@ -31,5 +29,5 @@
       }
     }
   },
-  "packageManager": "pnpm@10.33.0"
+  "packageManager": "pnpm@11.20.0+sha512.9a6f330a95b66446ea088faf1521405a8a01f07fde7124cc9958dfed52d4bb436737e65b08f85f37b46fcba375092558ac51262b816844b22f63406ed166bfee"
 }

@@ -23,12 +23,6 @@ importers:
       autoprefixer:
         specifier: ^10.5.4
         version: 10.5.4(postcss@8.5.25)
-      install:
-        specifier: ^0.13.0
-        version: 0.13.0
-      npm:
-        specifier: ^12.0.2
-        version: 12.0.2
       postcss:
         specifier: ^8.5.25
         version: 8.5.25
@@ -67,10 +61,10 @@ importers:
         version: 2.0.6(prettier@3.9.6)
       stylelint:
         specifier: ^17.14.1
-        version: 17.14.1
+        version: 17.14.1(supports-color@10.2.2)
       stylelint-config-standard:
         specifier: ^40.0.0
-        version: 40.0.0(stylelint@17.14.1)
+        version: 40.0.0(stylelint@17.14.1(supports-color@10.2.2))
       tailwindcss:
         specifier: ^4.3.3
         version: 4.3.3
@@ -671,10 +665,6 @@ packages:
   ini@1.3.8:
     resolution: {integrity: sha512-JV/yugV2uzW5iMRSiZAyDtQd+nxtUnjeLt0acNdw98kKLrvuRVyB80tsREOE7yvGVgalhZ6RNXCmEHkUKBKxew==}
 
-  install@0.13.0:
-    resolution: {integrity: sha512-zDml/jzr2PKU9I8J/xyZBQn8rPCAY//UOYNmR01XwNwyfhEWObo2SWfSl1+0tm1u6PhxLwDnfsT/6jB7OUxqFA==}
-    engines: {node: '>= 0.10'}
-
   is-arrayish@0.2.1:
     resolution: {integrity: sha512-zz06S8t0ozoDXMG+ube26zeCTNXcKIPJZJi8hBrF4idCLms4CG9QtK7qBl1boi5ODzFpjswb5JPmHCbMpjaYzg==}
 
@@ -863,80 +853,6 @@ packages:
   normalize-path@3.0.0:
     resolution: {integrity: sha512-6eZs5Ls3WtCisHWp9S2GUy8dqkpGi4BVSz3GaqiE6ezub0512ESztXUwUB6C6IKbQkY2Pnb/mD4WYojCRwcwLA==}
     engines: {node: '>=0.10.0'}
-
-  npm@12.0.2:
-    resolution: {integrity: sha512-uIXokLlBj6FpNUTQX1PmT5pz7BlIN9QlixX+zdaSNHsd0qUXsbDLr50xzY6Sw7cJVr0uzHKDOle0swmPW/p5Qw==}
-    engines: {node: ^22.22.2 || ^24.15.0 || >=26.0.0}
-    hasBin: true
-    bundledDependencies:
-      - '@isaacs/string-locale-compare'
-      - '@npmcli/arborist'
-      - '@npmcli/config'
-      - '@npmcli/fs'
-      - '@npmcli/git'
-      - '@npmcli/map-workspaces'
-      - '@npmcli/metavuln-calculator'
-      - '@npmcli/package-json'
-      - '@npmcli/promise-spawn'
-      - '@npmcli/redact'
-      - '@npmcli/run-script'
-      - '@sigstore/tuf'
-      - abbrev
-      - archy
-      - bin-links
-      - cacache
-      - chalk
-      - ci-info
-      - diff
-      - fastest-levenshtein
-      - fs-minipass
-      - glob
-      - graceful-fs
-      - hosted-git-info
-      - ini
-      - init-package-json
-      - is-cidr
-      - json-parse-even-better-errors
-      - libnpmaccess
-      - libnpmdiff
-      - libnpmexec
-      - libnpmfund
-      - libnpmorg
-      - libnpmpack
-      - libnpmpublish
-      - libnpmsearch
-      - libnpmteam
-      - libnpmversion
-      - make-fetch-happen
-      - minimatch
-      - minipass
-      - minipass-pipeline
-      - ms
-      - node-gyp
-      - nopt
-      - npm-audit-report
-      - npm-install-checks
-      - npm-package-arg
-      - npm-pick-manifest
-      - npm-profile
-      - npm-registry-fetch
-      - npm-user-validate
-      - p-map
-      - pacote
-      - parse-conflict-json
-      - proc-log
-      - qrcode-terminal
-      - read
-      - semver
-      - spdx-expression-parse
-      - ssri
-      - supports-color
-      - tar
-      - text-table
-      - tiny-relative-date
-      - treeverse
-      - validate-npm-package-name
-      - which
 
   parent-module@1.0.1:
     resolution: {integrity: sha512-GQ2EWRpQV8/o+Aw8YqtfZZPfNRWZYkbidE9k5rpl/hC3vtHHBfGm2Ifi6qWV+coDGkrUKZAxE3Lot5kcsRlh+g==}
@@ -1697,9 +1613,11 @@ snapshots:
 
   cssesc@3.0.0: {}
 
-  debug@4.4.3:
+  debug@4.4.3(supports-color@10.2.2):
     dependencies:
       ms: 2.1.3
+    optionalDependencies:
+      supports-color: 10.2.2
 
   dependency-graph@1.0.0: {}
 
@@ -1826,8 +1744,6 @@ snapshots:
   import-meta-resolve@4.2.0: {}
 
   ini@1.3.8: {}
-
-  install@0.13.0: {}
 
   is-arrayish@0.2.1: {}
 
@@ -1958,8 +1874,6 @@ snapshots:
   node-releases@2.0.51: {}
 
   normalize-path@3.0.0: {}
-
-  npm@12.0.2: {}
 
   parent-module@1.0.1:
     dependencies:
@@ -2174,16 +2088,16 @@ snapshots:
     dependencies:
       ansi-regex: 6.2.2
 
-  stylelint-config-recommended@18.0.0(stylelint@17.14.1):
+  stylelint-config-recommended@18.0.0(stylelint@17.14.1(supports-color@10.2.2)):
     dependencies:
-      stylelint: 17.14.1
+      stylelint: 17.14.1(supports-color@10.2.2)
 
-  stylelint-config-standard@40.0.0(stylelint@17.14.1):
+  stylelint-config-standard@40.0.0(stylelint@17.14.1(supports-color@10.2.2)):
     dependencies:
-      stylelint: 17.14.1
-      stylelint-config-recommended: 18.0.0(stylelint@17.14.1)
+      stylelint: 17.14.1(supports-color@10.2.2)
+      stylelint-config-recommended: 18.0.0(stylelint@17.14.1(supports-color@10.2.2))
 
-  stylelint@17.14.1:
+  stylelint@17.14.1(supports-color@10.2.2):
     dependencies:
       '@csstools/css-calc': 3.3.0(@csstools/css-parser-algorithms@4.0.0(@csstools/css-tokenizer@4.0.0))(@csstools/css-tokenizer@4.0.0)
       '@csstools/css-parser-algorithms': 4.0.0(@csstools/css-tokenizer@4.0.0)
@@ -2196,7 +2110,7 @@ snapshots:
       cosmiconfig: 9.0.2
       css-functions-list: 3.3.3
       css-tree: 3.2.1
-      debug: 4.4.3
+      debug: 4.4.3(supports-color@10.2.2)
       fast-glob: 3.3.3
       fastest-levenshtein: 1.0.16
       file-entry-cache: 11.1.5
