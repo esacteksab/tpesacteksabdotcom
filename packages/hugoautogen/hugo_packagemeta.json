@@ -1,0 +1,9 @@
+{
+  "sum": "825167dc6a44fe6b",
+  "dependencySources": {
+    "dependencies": {},
+    "devDependencies": {
+      "stylelint-config-recommended": "github.com/esacteksab/simpl"
+    }
+  }
+}
