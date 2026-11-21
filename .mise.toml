@@ -9,3 +9,4 @@
 
 [tools]
 hugo-extended = "v0.165.0"
+uv = "latest"
